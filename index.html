@@ -17,24 +17,26 @@
         <a href="#" class = "logo"> A. Virasoro</a>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Quien Soy</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="index.html#quienSoy">Quien Soy</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
             </ul>
         </nav>
     </div>
     <!--CentroPortfolio--------------------------->
     <div class= "textCenter">
         <h2>hola,</h1>
-        <h1>soy ALEJANDRO</h1>
+        <h1>soy Alejandro</h1>
         <h4>Desarrollador <br> & Vendedor de Desarrollos </h5> 
         <img src="images/profile.png" width = 300 class = "profilePic" alt="Foto Perfil">
     </div>
     <div class="botonera">
+        <a name="quienSoy"></a>
         <button class = "contactameBoton">Contactar</button>
-        <button class = "cvBoton">Mi CV</button>
+        <button class = "cvBoton"onclick="window.location.href='https://docs.google.com/document/d/1J8TkUd_T40dc1eaFuXzaeiYKuC_wdPYMaTqZEuCu-gE/edit','_blank'">Mi CV</button>
     </div>
     <!--QuienSoy ------------------------------->
     <div class="aboutContainer">
+
         <img src="images/profile - Copy.png">
         <div class="aboutText">
             <p>Acerca de Mi</p>
@@ -59,6 +61,18 @@
             <button onclick="window.location.href='https://github.com/alevirasoro/','_blank'">Proyectos</button>
         </div>
     </div>
+    <!--Formulario de Contacto-------------------->
+   
+    <div class="formContainer">
+        <a name="contacto"></a>
+        <form>
+            <input type="text" class="input" placeholder="Nombre"/><br>
+            <input type="text" class="input" placeholder="Empresa"/><br>
+            <input type="text" class="input" placeholder="Email o Telefono"/><br>
+            <textarea class="input textareaInput">Contame Mas</textarea><br>
+            <input type="submit" class="btnEnviar" value="Enviar"/>
+        </form>
+    </div>>
     <!---Foo(Figh)ter------------------------------->
         <footer>
             <p>Alejandro Virasoro</p>
